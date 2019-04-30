@@ -1,10 +1,13 @@
 ---
-output:
-    html_notebook:
-        toc: true
-        toc_float: true
 editor_options:
   chunk_output_type: inline
+output:
+  html_notebook:
+    toc: yes
+    toc_float: yes
+  html_document:
+    df_print: paged
+    toc: yes
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
@@ -18,6 +21,7 @@ knitr::opts_chunk$set(
 )
 
 library(magrittr)
+library(devtools)
 ```
 
 # `tidypmc` - package review
