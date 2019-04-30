@@ -109,7 +109,7 @@ devtools::install_github("cstubben/tidypmc", dependencies = T, build_vignettes =
 
 #### **comments:**
 
-<!-- record comments on github install here -->
+All checks out nicely.
 
 ***
 
@@ -124,7 +124,7 @@ devtools::check(pkg_dir)
 ```
 #### **comments:**
 
-<!-- record comments on checks here -->
+Looks good. There is one "note" returned about extdata being 8 Mb.
 
 ***
 
@@ -135,7 +135,7 @@ devtools::test(pkg_dir)
 ```
 #### **comments:**
 
-<!-- record comments on tests here -->
+All ok!
 
 ***
 
@@ -147,7 +147,7 @@ goodpractice::gp(pkg_dir)
 ```
 #### **comments:**
 
-<!-- record comments on goodpractice here -->
+Got a warning about 22% of code not being covered by tests, and the same `extdata` directory being over 1 Mb.
 
 ***
 
@@ -167,7 +167,7 @@ devtools::spell_check(pkg_dir)
 
 #### **comments:**
 
-<!-- record comments on metadata files here -->
+This all looks fine.
 
 ***
 
@@ -185,7 +185,7 @@ help(package = "tidypmc")
 
 #### **comments:**
 
-<!-- record comments on help files here -->
+The help page isn't loading for me right now. I'm going to try again after a restart.
 
 ***
 
@@ -197,7 +197,7 @@ vignette(package = "tidypmc")
 
 #### **comments:**
 
-<!-- record comments on vignettes here -->
+None found.
 
 ***
 
