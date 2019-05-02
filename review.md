@@ -63,9 +63,13 @@ The package probably doesn't need the function `pmc_xml()`, which is an alias to
 
 The main functions are covered by tests.
 
-Code is pretty understandable at a readthrough. There are a few areas where one or two comments might help to make clear the purpose of a block
+Code is pretty understandable at a readthrough. There are a few areas where one or two comments might help to make clear the purpose of a block, or a loop, where variable names etc. aren't as understandable at a glance.
 
 There's one "TO DO" comment in `collapse_rows.R` (line 43) — not sure if this is something which is still pending or not.
+
+This is pretty nitpicky now, but, while the code style is consistent throughout, there are one or two areas where spacing before and after assignment operators is a little wonky, or there was less spacing around parentheses and brackets in if/else statements — but again, this is *super* nitpicky and somewhat a matter of personal taste. 😅
+
+Though there are tests to cover most functions, `goodpractice` still flags some lines as not being covered. I don't have that much familiarity with coverage metrics — perhaps there are some cases or outcomes which aren't being tested? I'm not sure.
 
 #### Final approval (post-review)
 
@@ -77,3 +81,9 @@ Estimated hours spent reviewing: Roughly 4 hours, including setup, reviewing gui
 
 ### Review Comments
 
+As far as the specific review criteria go, I think this package is really far along in terms of meeting them. A few edits to the documentation, to add a little more context, and resolving the various other minor issues I mentioned, and I think it's good to go.
+
+I think this package also has some clear points of expansion for a next major version. The parsing functions all work very well — but it might be nice to have functions which, for example, extract the body text of an article into a character vector. This sort of thing would do a lot to make the package useful for a larger range of workflows.
+
+NI know I spent most of my writing time here finding nitpicks and critiquing, so I think I should end on a positive note: Nice work! Working with the PMC OAS can be a hassle at times, and this sort of tool
+makes it much more accessible.
