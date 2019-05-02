@@ -85,5 +85,5 @@ As far as the specific review criteria go, I think this package is really far al
 
 I think this package also has some clear points of expansion for a next major version. The parsing functions all work very well — but it might be nice to have functions which, for example, extract the body text of an article into a character vector. This sort of thing would do a lot to make the package useful for a larger range of workflows.
 
-NI know I spent most of my writing time here finding nitpicks and critiquing, so I think I should end on a positive note: Nice work! Working with the PMC OAS can be a hassle at times, and this sort of tool
+I know I spent most of my writing time here finding nitpicks and critiquing, so I think I should end on a positive note: Nice work! Working with the PMC OAS can be a hassle at times, and this sort of tool
 makes it much more accessible.
